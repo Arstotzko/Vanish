@@ -1,0 +1,11 @@
+main: de.Juldre.Vanish.main
+name: Vanish
+author: Juldre
+version: 1.0
+commands:
+   vanish:
+      aliases: v
+      description: Vanishes you in front of other Players
+      permission: Vanish.toggle
+      permission-message: You don't have Permissions to do that! (<permission>)
+      usage: /<command>
