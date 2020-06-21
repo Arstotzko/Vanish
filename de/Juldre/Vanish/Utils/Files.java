@@ -136,7 +136,6 @@ public class Files {
 		
 
 		// TODO: Set Default Messages
-		// strPrefix,strVanishOn,strVanishOff,strNoPerms,strNotification
 		setDef("System.Prefix", "&8[§6Vanish§8] ");
 		setDef("System.Perms", "&cYou do not have Permissions to do that! &7(&6<permission>&7)");
 		setDef("Vanish.Enable", "&6Vanish&7 toggled &aOn");
@@ -152,12 +151,11 @@ public class Files {
 		config.addDefault("Options.ShowJoinMessage", false);
 		config.addDefault("Options.ShowQuitMessage", false);
 		config.options().copyDefaults(true);
-
+		
 		// TODO: Save Config
 		save(Type.CONFIG);
 
 		// TODO: Set Messages
-		// strPrefix,strVanishOn,strVanishOff,strNoPerms,strNotification
 		strPrefix = getElement("System.Prefix");
 		strNoPerms = getElement("System.Perms");
 		strVanishOn = getElement("Vanish.Enable");
